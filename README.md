@@ -1,6 +1,6 @@
 <!-- ===================== HEADER ===================== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:0EA5E9&height=220&section=header&text=Simon%20Ramsner&fontSize=60&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=IT%20%26%20Medientechnik%20%40%20HTL%20Ybbs&descAlignY=58&descSize=20" width="100%" />
+  <img src="./header.svg" width="100%" alt="Simon Ramsner – IT & Medientechnik @ HTL Ybbs" />
 </p>
 
 <p align="center">
@@ -21,12 +21,13 @@
 
 ```js
 const simon = {
-  schule:     "HTL Ybbs – Informationstechnologie / Medientechnik (Matura 2028)",
-  ort:        "Amstetten, Niederösterreich 🇦🇹",
-  baut:       ["Web-Apps", "Raspberry-Pi-Projekte", "Smart Home", "Homelab"],
-  nebenbei:   ["Events mit Festwerk", "Foto & Video als theRAMedia", "Klettern"],
-  lerntGrade: ["C#", "Vue / Nuxt", "Large Language Models"],
-  offenFür:   "Praktika in Softwareentwicklung, IT-Infrastruktur & Medientechnik",
+  schule:   "HTL Ybbs · IT / Medientechnik",
+  matura:   2028,
+  ort:      "Amstetten, AT 🇦🇹",
+  baut:     ["Web-Apps", "Raspberry Pi", "Smart Home"],
+  nebenbei: ["Festwerk Events", "theRAMedia", "Klettern"],
+  lernt:    ["C#", "Vue / Nuxt", "LLMs"],
+  sucht:    "Praktikum: Software, IT, Medien",
 };
 ```
 
@@ -87,5 +88,5 @@ Sobald mehr öffentliche Aktivität da ist, diesen Block einkommentieren.
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,100:0F172A&height=120&section=footer" width="100%" />
+  <img src="./footer.svg" width="100%" />
 </p>
